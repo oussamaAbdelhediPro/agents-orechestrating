@@ -13,17 +13,17 @@ workshop/
 │   ├── 01-workshop-copilot.md   ← Copilot track (1h15 hands-on)
 │   └── 02-workshop-opencode.md  ← OpenCode track (1h15 hands-on)
 │
-├── starter-project/             ← Clone this, run it, build your agents on top
-│   ├── src/
-│   │   ├── models/task.model.ts
-│   │   ├── services/task.service.ts
-│   │   ├── routes/tasks.routes.ts
-│   │   ├── app.ts
-│   │   └── index.ts
-│   ├── tests/tasks.test.ts
-│   ├── package.json
-│   ├── tsconfig.json
-│   └── README.md
+
+├── src/
+│   ├── models/task.model.ts
+│   ├── services/task.service.ts
+│   ├── routes/tasks.routes.ts
+│   ├── app.ts
+│   └── index.ts
+├── tests/tasks.test.ts
+├── package.json
+├── tsconfig.json
+└── README.md
 │
 └── solutions/                   ← Reference solution — don't peek until you're done!
     ├── copilot/                 ← Completed Copilot agent files
